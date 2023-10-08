@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:insights_news/core/app_color.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:insights_news/feature/news/news_view.dart';
-import 'package:insights_news/feature/notification/notification_view.dart';
-import 'package:insights_news/feature/profile/profile_view.dart';
-import 'package:insights_news/feature/search/search_screen.dart';
+import 'package:insights_news/feature/news/presentation/view/news_view.dart';
+import 'package:insights_news/feature/notification/presentation/view/notification_view.dart';
+import 'package:insights_news/feature/profile/presentation/view/profile_view.dart';
+import 'package:insights_news/feature/search/presentation/view/search_screen.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -15,7 +15,7 @@ class HomeView extends StatefulWidget {
 
 class _HomeViewState extends State<HomeView> {
   List<Widget> screens = [
-    const NewsView(),
+    NewsView(),
     const SearchView(),
     const NotificationView(),
     const ProfileView(),

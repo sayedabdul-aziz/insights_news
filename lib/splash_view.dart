@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:insights_news/core/app_color.dart';
-import 'package:insights_news/feature/home/home_view.dart';
+import 'package:insights_news/feature/home/views/home_view.dart';
 import 'package:insights_news/feature/upload_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

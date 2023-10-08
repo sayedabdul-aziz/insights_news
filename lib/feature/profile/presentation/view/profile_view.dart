@@ -5,7 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:insights_news/core/app_color.dart';
 import 'package:insights_news/core/cahed_data.dart';
-import 'package:insights_news/feature/home/home_view.dart';
+import 'package:insights_news/feature/home/views/home_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 File? imgFile;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:insights_news/core/app_color.dart';
-import 'package:insights_news/feature/search/search_list_view.dart';
+import 'package:insights_news/feature/search/presentation/view/search_list_view.dart';
 
 class SearchView extends StatefulWidget {
   const SearchView({super.key});

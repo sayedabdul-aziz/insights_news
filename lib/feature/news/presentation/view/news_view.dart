@@ -8,19 +8,10 @@ import 'package:insights_news/core/app_color.dart';
 import 'package:insights_news/core/cahed_data.dart';
 import 'package:insights_news/feature/home/views/science_view.dart';
 
-class NewsView extends StatefulWidget {
-  const NewsView({super.key});
+class NewsView extends StatelessWidget {
+  NewsView({super.key});
 
-  @override
-  State<NewsView> createState() => _NewsViewState();
-}
-
-class _NewsViewState extends State<NewsView> {
   int selectedIndex = 0;
-  @override
-  void initState() {
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
