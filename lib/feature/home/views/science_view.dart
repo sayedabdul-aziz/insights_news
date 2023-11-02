@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:insights_news/core/api_services.dart';
 import 'package:insights_news/core/app_color.dart';
 import 'package:insights_news/feature/home/news_web_view.dart';
 import 'package:insights_news/feature/news/presentation/view_model/news_cubit.dart';
 import 'package:insights_news/feature/news/presentation/view_model/news_states.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class ScienceListView extends StatelessWidget {
   const ScienceListView({super.key, required this.category});
@@ -43,6 +41,7 @@ class ScienceListView extends StatelessWidget {
                     // height: 80,
                     child: Row(
                       children: [
+                        const Text('kjfkads'),
                         ClipRRect(
                           borderRadius: BorderRadius.circular(15),
                           child: Image.network(
